@@ -1,0 +1,156 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 39, 198, 1) 47%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.nav {
+  background: rgba(255, 255, 255, 0.2);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3);  */
+
+  position: sticky;
+  top: 0px;
+  z-index: 99999999999;
+}
+.logo {
+  font-size: 33px;
+  color: skyblue;
+}
+.a {
+  font-size: 19px;
+  color: wheat;
+}
+.view {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/pexels-karolina-grabowska-4386365.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content h1 {
+  color: skyblue;
+  font-size: 100px;
+  background-color: darkblue;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 8px white;
+}
+.center {
+  width: 100%;
+  height: 650px;
+  /* background-color: white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  width: 70%;
+  height: 100%;
+  /* background-color: white; */
+}
+.left img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+.right {
+  text-align: start;
+  width: 100%;
+  height: 500px;
+  /* background-color: darkblue; */
+}
+.right p {
+  font-size: 17px;
+}
+.right h3 {
+  font-size: 45px;
+  color: gold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.card {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: none !important;
+}
+.card-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 27px;
+  color: goldenrod;
+}
+.btn {
+  width: 120px;
+  height: 42px;
+  background-color: black;
+  color: goldenrod;
+  border: 2px solid goldenrod;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.btn:hover{
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  transition: 1s;
+  border: 2px solid black;
+}
+
+/* ////////////////// AMAZON CSS //////////////////////////// */
+
+.pic {
+  width: 100%;
+  height: 100vh;
+}
+.pic img {
+  width: 100%;
+  height: 100%;
+}
+.article {
+  width: 100%;
+  height: 100vh;
+  /* background-color: saddlebrown; */
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article p {
+  color: white;
+  max-width: 50%;
+}
